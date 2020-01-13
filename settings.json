@@ -1,0 +1,21 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontFamily": "FiraCode-Retina, Osaka-Mono",
+  "editor.tabSize": 2,
+  "editor.renderControlCharacters": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "oneDarkPro.editorTheme": "solarized",
+  "oneDarkPro.bold": true,
+  "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "ruby.lint": {
+      "ruby": {
+          "unicode": true
+      }
+  }
+}
