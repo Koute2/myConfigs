@@ -8,7 +8,7 @@
     "ruby.lint": {
         "ruby": {
             "unicode": true
-        }, //Runs ruby -wc
+        }
     },
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
@@ -25,12 +25,13 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "oneDarkPro.bold": true,
     "oneDarkPro.editorTheme": "solarized",
-    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "[ruby]": {
         "editor.defaultFormatter": "misogi.ruby-rubocop"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "files.insertFinalNewline": true
 }
