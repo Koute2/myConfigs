@@ -56,6 +56,6 @@ font:
 #   - (Linux) user login shell
 #   - (Windows) powershell
 shell:
-  program: /usr/local/bin/bash
+  program: /usr/local/bin/fish
   args:
     - --login

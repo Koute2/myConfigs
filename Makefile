@@ -15,15 +15,13 @@ gem:
 brew:
 	brew update && \
 	brew upgrade && \
-	brew cask upgrade && \
 	brew cleanup
 
 .PHONY: node
 node:
-	fnm install latest && \
-	fnm use latest && \
-	npm install -g yarn bs-platform && \
-	npm update -g
+  fnm install --lts && \
+  fnm default lts-latest && \
+  npm install -g npm yarn
 
 .PHONY: remove-mysql
 remove-mysql:

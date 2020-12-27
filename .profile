@@ -1,6 +1,4 @@
 eval "$(rbenv init -)"
-eval "$(fnm env --multi)"
+eval "$(fnm env)"
 
-export GOPATH=$HOME/.go
-
-. ~/.bashrc
+source ~/.bashrc
