@@ -1,0 +1,16 @@
+[plugins]
+git
+bpytop
+osx-cpu-temp
+mutagen-beta
+rbenv
+fnm
+fish
+starship
+
+[cask]
+alacritty
+onyx
+avibrazil-rdm
+font-fira-code
+font-fira-mono-for-powerline
