@@ -1,15 +1,8 @@
 .PHONY: default
 default:
-	@sudo echo "Starting Update Tasks"
-	@make gem
+	@echo "Starting Update Tasks"
 	@make node
 	@make brew
-
-.PHONY: gem
-gem:
-	sudo gem update && \
-	sudo gem update --system && \
-	sudo gem cleanup
 
 .PHONY: brew
 brew:
@@ -19,9 +12,9 @@ brew:
 
 .PHONY: node
 node:
-  fnm install --lts && \
-  fnm default lts-latest && \
-  npm install -g npm yarn
+	fnm install --lts && \
+	fnm default lts-latest && \
+	npm install -g npm yarn
 
 .PHONY: remove-mysql
 remove-mysql:
@@ -36,3 +29,8 @@ remove-mysql:
 	-sudo rm -rf /Library/Receipts/mysql* && \
 	-sudo rm -rf /Library/Receipts/MySQL* && \
 	-sudo rm -rf /private/var/db/receipts/*mysql*
+
+.PHONY: setup
+setup:
+	brew install fnm fzf skhd starship yabai && \
+	brew install --cask alacritty avibrazil-rdm font-fira-code font-fira-mono-for-powerline onyx

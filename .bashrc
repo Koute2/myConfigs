@@ -1,8 +1,5 @@
-# ~/.bashrc
-# If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
+if [ -z "$PS1" ]; then
+  return
+fi
 
-eval "$(starship init bash)"
+eval "$(fnm env)"
