@@ -32,5 +32,6 @@ remove-mysql:
 
 .PHONY: setup
 setup:
-	brew install fnm fzf skhd starship yabai && \
-	brew install --cask alacritty avibrazil-rdm font-fira-code font-fira-mono-for-powerline onyx
+	brew install fnm fzf koekeishiya/formulae/skhd koekeishiya/formulae/yabai starship && \
+	brew tap homebrew/cask-fonts && \
+	brew install --cask alacritty avibrazil-rdm onyx font-fira-code-nerd-font font-fira-mono-nerd-font

@@ -2,7 +2,7 @@
   "breadcrumbs.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.renderControlCharacters": true,
-  "editor.fontFamily": "FiraCode-Retina, Osaka-Mono",
+  "editor.fontFamily": "FiraCode Nerd Font, Osaka-Mono",
   "editor.fontLigatures": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
