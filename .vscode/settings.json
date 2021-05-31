@@ -23,5 +23,6 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "liveshare.guestApprovalRequired": true,
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.tabs.enabled": true
 }
