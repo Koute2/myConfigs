@@ -14,15 +14,10 @@
   "git.allowForcePush": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
-  "oneDarkPro.editorTheme": "solarized",
+  "oneDarkPro.editorTheme": "Solarized",
   "oneDarkPro.bold": true,
-  "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "liveshare.guestApprovalRequired": true,
-  "tabnine.experimentalAutoImports": true,
-  "terminal.integrated.tabs.enabled": true
+  "terminal.integrated.tabs.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active"
 }
