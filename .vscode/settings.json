@@ -7,6 +7,9 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
@@ -18,6 +21,11 @@
   "oneDarkPro.bold": true,
   "liveshare.guestApprovalRequired": true,
   "terminal.integrated.tabs.enabled": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs":"active"
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  }
 }
