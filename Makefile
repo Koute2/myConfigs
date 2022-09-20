@@ -18,6 +18,7 @@ node:
 
 .PHONY: setup
 setup:
-	brew install git fnm colima docker fzf koekeishiya/formulae/skhd koekeishiya/formulae/yabai starship && \
+	brew install git fnm colima docker fzf koekeishiya/formulae/yabai starship && \
 	brew tap homebrew/cask-fonts && \
-	brew install --cask alacritty avibrazil-rdm onyx font-fira-code-nerd-font font-fira-mono-nerd-font
+	brew install --cask alacritty onyx font-fira-code-nerd-font font-fira-mono-nerd-font && \
+	brew install --HEAD koekeishiya/formulae/skhd
