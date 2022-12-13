@@ -14,4 +14,4 @@ zinit lucid light-mode for \
     atload"_evalcache starship init zsh" \
         mroth/evalcache
 
-eval "$(fnm env)"
+eval "$(fnm env --use-on-cd)"
