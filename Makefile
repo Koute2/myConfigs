@@ -18,7 +18,16 @@ node:
 
 .PHONY: setup
 setup:
-	brew install git fnm colima docker fzf koekeishiya/formulae/yabai starship && \
-	brew tap homebrew/cask-fonts && \
-	brew install --cask alacritty onyx font-fira-code-nerd-font && \
-	brew install --HEAD koekeishiya/formulae/skhd
+	@echo "Starting Setup Workflow"
+	@echo "Copy and place settings"
+	cp -r .bashrc .zshrc Brewfile .config ~/
+	@echo "Install Homebrew"
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	@echo "Install Homebrew Bundle"
+	brew update
+	brew bundle install
+	@echo "Install zinit"
+	bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+	@echo "Install nodejs"
+	@make node
+	@echo "Done!"
