@@ -2,4 +2,4 @@ if [ -z "$PS1" ]; then
   return
 fi
 
-eval "$(fnm env)"
+eval "$(fnm env --use-on-cd bash)"
